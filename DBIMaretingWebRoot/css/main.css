@@ -74,18 +74,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #006957;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #00a287;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #1e796a;
 }
 
 .title {
@@ -111,7 +111,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #006957;
 }
 
 nav a:hover,
@@ -242,13 +242,17 @@ nav a:hover {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 100%;
     }
 
     .main aside {
         float: right;
         width: 28%;
     }
+	.main section {
+		float: left;
+		width:33%;
+	}
 }
 
 @media only screen and (min-width: 1140px) {
