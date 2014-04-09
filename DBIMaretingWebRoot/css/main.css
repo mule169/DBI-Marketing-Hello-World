@@ -139,6 +139,10 @@ nav a:hover {
     color: white;
     padding: 0px 5% 10px;
 }
+.main section img{
+	height:250px;
+	width:100% ;
+}
 
 .footer-container footer {
     color: white;
@@ -208,6 +212,10 @@ nav a:hover {
     .oldie nav a {
         margin: 0 0.7%;
     }
+	.main section img{
+		height:250px;
+		width:100% ;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -254,7 +262,7 @@ nav a:hover {
 		width:33%;
 	}
 	.main section img{
-		height:275px;
+		height:250px;
 		width:100% ;
 	}
 }
